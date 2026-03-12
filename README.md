@@ -1,16 +1,45 @@
-# React + Vite
+# 🦊 fatfox-recon-ai-bot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered Bug Bounty Recon Bot with a Kali Linux terminal interface.
+Powered by Groq (Free) using Llama 3.3 70B.
 
-Currently, two official plugins are available:
+## Features
+- Subdomain enumeration workflows
+- Port scanning strategies
+- JS secret hunting
+- OSINT techniques
+- Cloud asset discovery
+- Nuclei scan setup
+- Full recon checklists
+- Animated progress bar per scan type
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
 
-## React Compiler
+### 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/fatfox-recon-ai-bot.git
+cd fatfox-recon-ai-bot
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+### 3. Get a FREE Groq API key
+Visit: https://console.groq.com
+Sign up and create an API key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Add your API key
+Create a .env file:
+VITE_GROQ_API_KEY=gsk_your_key_here
+
+### 5. Run
+npm run dev
+
+Open http://localhost:5173
+
+## Legal Warning
+Only test systems you own or have explicit written permission to test.
+Unauthorized scanning is illegal.
+
+## Built With
+- React + Vite
+- Groq API (Free)
+- Llama 3.3 70B
